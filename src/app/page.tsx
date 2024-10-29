@@ -1,12 +1,10 @@
+import { Button } from "@/components/ui/button";
 import React from "react";
-import { Account } from "@/components/account";
-import { Bonus } from "@/components/bonus";
 
 export default function Home() {
-  return (
-    <>
-      <Account />
-      <Bonus />
-    </>
-  );
+	return (
+		<>
+			<Button variant="default">Data</Button>
+		</>
+	);
 }
